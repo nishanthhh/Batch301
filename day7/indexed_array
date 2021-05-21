@@ -1,0 +1,17 @@
+#!/bin/bash -x
+declare -a indexed_array
+for ((i=0; i<5; i++)
+do
+    read -p "enter element of an array;" 1
+    indexed_array[$i]="$1"
+
+done 
+
+echo ${indexed_array[@]}
+
+for i in ${indexed array[@]}
+
+do  
+
+  echo 
+$i
